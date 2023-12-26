@@ -14,6 +14,8 @@
             <a href="/counter" wire:navigate @class(['current' => request()->is('counter')]) >Counter</a>
             <a href="/posts" wire:navigate @class(['current' => request()->is('posts')]) >Posts</a>
             <a href="/create-post" wire:navigate @class(['current' => request()->is('create-post')]) >Create Post</a>
+            <a href="/fibonacci" wire:navigate @class(['current' => request()->is('fibonacci')]) >Fibonacci</a>
+            <a href="/prime-number" wire:navigate @class(['current' => request()->is('prime-number')]) >Prime Number</a>
         </nav>
         {{ $slot }}
     </body>
